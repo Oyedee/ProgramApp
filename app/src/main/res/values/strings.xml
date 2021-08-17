@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ProgramApp</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="display_input">Display Input</string>
+    <string name="program">Program</string>
+    <string name="program_app_takes_your_input_n_generates_an_output_for_you">Program App takes your Input \n Generates an output for you</string>
+    <string name="this_is_your_output">This is your Output :</string>
+    <string name="programm">Program</string>
+    <string name="check_zuri_s_website">check zuri\'s website</string>
+</resources>
