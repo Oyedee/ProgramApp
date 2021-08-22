@@ -5,11 +5,14 @@
 
 ![Screenshot_1629212247](https://user-images.githubusercontent.com/24321091/129773813-201fae4a-0771-4660-b105-1e68bd0e7f9f.png)
 
-![Screenshot_1629216227](https://user-images.githubusercontent.com/24321091/129773824-e2762d4c-f734-4888-943c-92df6690ef9b.png)
+![Screenshot_1629635390](https://user-images.githubusercontent.com/24321091/130357214-f4d41b16-8fc8-4653-8eea-8602bb7d72bb.png)
 
-![Screenshot_1629216232](https://user-images.githubusercontent.com/24321091/129773835-f31c8bb4-1b85-4c93-b862-abad4cc46fa3.png)
+![Screenshot_1629635404](https://user-images.githubusercontent.com/24321091/130357217-53e9055f-475d-46f8-b6a1-6b64470afd8f.png)
 
-![Screenshot_1629217366](https://user-images.githubusercontent.com/24321091/129773840-d27ec444-cde5-4a4b-b725-e5a58e3edb53.png)
+![Screenshot_1629635414](https://user-images.githubusercontent.com/24321091/130357218-ca9763a7-8937-4371-b116-e7eb7b8ce147.png)
+
+![Screenshot_1629635423](https://user-images.githubusercontent.com/24321091/130357221-46d8ae06-24c1-4bc4-9835-e6fed3c6094e.png)
+
 
 Below are the Logos for HNG and Zuri 
 ![hng_image](https://user-images.githubusercontent.com/24321091/129788772-c7e7eade-85b0-4a40-81c7-0f6f024681bd.png)
