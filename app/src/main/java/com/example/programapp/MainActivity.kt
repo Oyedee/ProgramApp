@@ -8,10 +8,11 @@ import android.os.Bundle
 import android.view.KeyEvent
 import android.view.View
 import android.view.inputmethod.InputMethodManager
+import android.widget.EditText
 import android.widget.Toast
 import com.example.programapp.databinding.ActivityMainBinding
 
-
+const val EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE" //intent extra Id
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -22,20 +23,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         //let's handle when the user taps the display button
-        binding.displayButton.setOnClickListener { view ->
-            if (binding.editName.text.toString() != "") {
-                var displaytext = binding.editName.text //get user's input from editText input field
-                binding.displayText2.text =
-                    displaytext.toString() //set user's input to display textView
-            } else {
-                Toast.makeText(
-                    this,
-                    "Try again! Enter a valid input",
-                    Toast.LENGTH_LONG
-                ).show()
-            }
-        }
+        binding.displayButton.setOnClickListener { sendMessage() }
 
         //Hide keyboard when user presses enter key
         binding.editName.setOnKeyListener { view, keyCode, _ ->
@@ -47,8 +37,26 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    /** Called when the user taps the display input button */
+    private fun sendMessage() {
+        val editText = findViewById<EditText>(R.id.edit_name)
+        val message = editText.text.toString()
+        if (message.isNotEmpty()) {
+            val intent = Intent(this, ScreenActivity::class.java).apply {
+                putExtra(EXTRA_MESSAGE, message)
+            }
+            startActivity(intent)
+        } else {
+            Toast.makeText(
+                this,
+                "Try again! Enter a valid input",
+                Toast.LENGTH_LONG
+            ).show()
+        }
+    }
+
     //lunch Zuri's website when the user click on the ImageView
-    public fun displayZuriWebsite(view: View) {
+    fun displayZuriWebsite(view: View) {
         val intent = Intent(Intent.ACTION_VIEW)
         intent.data = Uri.parse("https://internship.zuri.team/")
         startActivity(intent)
