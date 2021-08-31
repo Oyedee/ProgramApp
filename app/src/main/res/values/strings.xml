@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProgramApp</string>
+<!--    <string name="app_name">ProgramApp</string>-->
     <string name="enter_text">Enter Text</string>
     <string name="display_input">Display Input</string>
     <string name="program">Program</string>
